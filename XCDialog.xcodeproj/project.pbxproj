@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97AA4FAA240887020079A37E /* OperationSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA4FA9240887020079A37E /* OperationSchedule.swift */; };
 		97D1851D2404AFB7000ACECC /* XCDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D1851B2404AFB7000ACECC /* XCDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97AA4FA9240887020079A37E /* OperationSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSchedule.swift; sourceTree = "<group>"; };
 		97D185182404AFB7000ACECC /* XCDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D1851B2404AFB7000ACECC /* XCDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDialog.h; sourceTree = "<group>"; };
 		97D1851C2404AFB7000ACECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				97D1851B2404AFB7000ACECC /* XCDialog.h */,
 				97D1851C2404AFB7000ACECC /* Info.plist */,
+				97AA4FA9240887020079A37E /* OperationSchedule.swift */,
 			);
 			path = XCDialog;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					97D185172404AFB7000ACECC = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97AA4FAA240887020079A37E /* OperationSchedule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		97D185212404AFB7000ACECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T749PR32HB;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajaygms.XCDialog;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		97D185222404AFB7000ACECC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = T749PR32HB;
