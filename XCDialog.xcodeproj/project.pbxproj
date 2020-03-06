@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		971FBFF52411E344007E9BCB /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971FBFF42411E344007E9BCB /* Dialog.xib */; };
+		971FBFF72411E393007E9BCB /* DialogSave.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971FBFF62411E393007E9BCB /* DialogSave.xib */; };
+		971FBFF92411E8BA007E9BCB /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FBFF82411E8BA007E9BCB /* DialogViewController.swift */; };
+		971FBFFB2411EB00007E9BCB /* right-icon-png-.png in Resources */ = {isa = PBXBuildFile; fileRef = 971FBFFA2411EB00007E9BCB /* right-icon-png-.png */; };
 		97AA4FAA240887020079A37E /* OperationSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AA4FA9240887020079A37E /* OperationSchedule.swift */; };
 		97D1851D2404AFB7000ACECC /* XCDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D1851B2404AFB7000ACECC /* XCDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		971FBFF42411E344007E9BCB /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
+		971FBFF62411E393007E9BCB /* DialogSave.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogSave.xib; sourceTree = "<group>"; };
+		971FBFF82411E8BA007E9BCB /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		971FBFFA2411EB00007E9BCB /* right-icon-png-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-icon-png-.png"; sourceTree = "<group>"; };
 		97AA4FA9240887020079A37E /* OperationSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSchedule.swift; sourceTree = "<group>"; };
 		97D185182404AFB7000ACECC /* XCDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D1851B2404AFB7000ACECC /* XCDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDialog.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 				97D1851B2404AFB7000ACECC /* XCDialog.h */,
 				97D1851C2404AFB7000ACECC /* Info.plist */,
 				97AA4FA9240887020079A37E /* OperationSchedule.swift */,
+				971FBFF82411E8BA007E9BCB /* DialogViewController.swift */,
+				971FBFF42411E344007E9BCB /* Dialog.xib */,
+				971FBFFA2411EB00007E9BCB /* right-icon-png-.png */,
+				971FBFF62411E393007E9BCB /* DialogSave.xib */,
 			);
 			path = XCDialog;
 			sourceTree = "<group>";
@@ -125,6 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971FBFF72411E393007E9BCB /* DialogSave.xib in Resources */,
+				971FBFFB2411EB00007E9BCB /* right-icon-png-.png in Resources */,
+				971FBFF52411E344007E9BCB /* Dialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971FBFF92411E8BA007E9BCB /* DialogViewController.swift in Sources */,
 				97AA4FAA240887020079A37E /* OperationSchedule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
