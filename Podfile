@@ -7,4 +7,5 @@ target 'XCDialog' do
 
   # Pods for XCDialog
 
+pod 'CocoaAsyncSocket'
 end

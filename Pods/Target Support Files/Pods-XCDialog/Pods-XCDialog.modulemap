@@ -1,0 +1,6 @@
+framework module Pods_XCDialog {
+  umbrella header "Pods-XCDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

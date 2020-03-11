@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901AB85A22FD892FFBEF4289 /* Pods_XCDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DE757D753121ED64ABB781 /* Pods_XCDialog.framework */; };
 		971FBFF52411E344007E9BCB /* Dialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971FBFF42411E344007E9BCB /* Dialog.xib */; };
 		971FBFF72411E393007E9BCB /* DialogSave.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971FBFF62411E393007E9BCB /* DialogSave.xib */; };
 		971FBFF92411E8BA007E9BCB /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FBFF82411E8BA007E9BCB /* DialogViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06DE757D753121ED64ABB781 /* Pods_XCDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE92F89AA91324DF0A394C0 /* Pods-XCDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCDialog.release.xcconfig"; path = "Target Support Files/Pods-XCDialog/Pods-XCDialog.release.xcconfig"; sourceTree = "<group>"; };
 		971FBFF42411E344007E9BCB /* Dialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Dialog.xib; sourceTree = "<group>"; };
 		971FBFF62411E393007E9BCB /* DialogSave.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialogSave.xib; sourceTree = "<group>"; };
 		971FBFF82411E8BA007E9BCB /* DialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		97D185182404AFB7000ACECC /* XCDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D1851B2404AFB7000ACECC /* XCDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDialog.h; sourceTree = "<group>"; };
 		97D1851C2404AFB7000ACECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD191D52A61CA736537712 /* Pods-XCDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCDialog.debug.xcconfig"; path = "Target Support Files/Pods-XCDialog/Pods-XCDialog.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901AB85A22FD892FFBEF4289 /* Pods_XCDialog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B131FA66E687719739809F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06DE757D753121ED64ABB781 /* Pods_XCDialog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97D1850E2404AFB7000ACECC = {
 			isa = PBXGroup;
 			children = (
 				97D1851A2404AFB7000ACECC /* XCDialog */,
 				97D185192404AFB7000ACECC /* Products */,
+				ED3E1D28EC08FF8B1BC01049 /* Pods */,
+				05B131FA66E687719739809F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = XCDialog;
 			sourceTree = "<group>";
 		};
+		ED3E1D28EC08FF8B1BC01049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD191D52A61CA736537712 /* Pods-XCDialog.debug.xcconfig */,
+				6DE92F89AA91324DF0A394C0 /* Pods-XCDialog.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -85,6 +110,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97D185202404AFB7000ACECC /* Build configuration list for PBXNativeTarget "XCDialog" */;
 			buildPhases = (
+				7B9492335BA0D050C761DCE6 /* [CP] Check Pods Manifest.lock */,
 				97D185132404AFB7000ACECC /* Headers */,
 				97D185142404AFB7000ACECC /* Sources */,
 				97D185152404AFB7000ACECC /* Frameworks */,
@@ -144,6 +170,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B9492335BA0D050C761DCE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCDialog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		97D185142404AFB7000ACECC /* Sources */ = {
@@ -280,6 +331,7 @@
 		};
 		97D185212404AFB7000ACECC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AD191D52A61CA736537712 /* Pods-XCDialog.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +358,7 @@
 		};
 		97D185222404AFB7000ACECC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE92F89AA91324DF0A394C0 /* Pods-XCDialog.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
