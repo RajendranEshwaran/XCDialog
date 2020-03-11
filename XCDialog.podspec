@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/RajendranEshwaran/XCDialog.git", :tag => "1.0.0" }
   spec.source_files = "XCDialog"
-
+  spec.dependency 'CocoaAsyncSocket'
 end
